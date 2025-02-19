@@ -27,7 +27,7 @@ const EMissingMetadata: u64 = 8;
 const EInvalidBlobPersistenceType: u64 = 9;
 const EInvalidBlobObject: u64 = 10;
 
-// The fixed dynamic filed name for metadata
+// The fixed dynamic field name for metadata
 const METADATA_DF: vector<u8> = b"metadata";
 
 // === Object definitions ===
