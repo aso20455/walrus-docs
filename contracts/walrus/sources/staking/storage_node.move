@@ -106,7 +106,7 @@ public fun last_epoch_sync_done(cap: &StorageNodeCap): u32 {
     cap.last_epoch_sync_done
 }
 
-/// Return the latest event blob attestion.
+/// Return the latest event blob attestation.
 public fun last_event_blob_attestation(cap: &mut StorageNodeCap): Option<EventBlobAttestation> {
     cap.last_event_blob_attestation
 }
